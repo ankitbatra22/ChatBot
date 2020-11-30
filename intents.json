@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi welcome to FGF! What Can I do for you today?",
+        "Hello welcome to FGF!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Do you sell food?",
+        "Is FGF a bakery?"
+      ],
+      "responses": [
+        "We aren't a bakery. We are a technology company, that bakes",
+        "AT FGF, we bake many things from sweet goods to flat breads and even laminated dough!"
+      ]
+    },
+    {
+      "tag": "sales",
+      "patterns": [
+        "How are the sales?",
+        "Show me the sales for this month",
+        "Show me the graphs of sales",
+        "How much money have you made?"
+      ],
+      "responses": [
+        "I do not currently have access to the sales yet. Coming soon!",
+        "I will have access to sales soon. Try again later! "
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "Who do you work for?",
+        "Where are you from?",
+        "What company are you from?",
+        "Who are you?",
+        "Where are you from?"
+      ],
+      "responses": [
+        "I am an AI assistant at FGF Brands",
+        "I am FGF Brand's chat bot",
+        "I am an AI Assistant for FGF Brands",
+        "I work at FGF Brands. I am a AI assistant"
+      ]
+    },
+    {
+      "tag": "Creation",
+      "patterns": [
+        "How were you made",
+        "How were you programmed?",
+        "How were you created?"
+      ],
+      "responses": [
+        "I am a chat bot made with PyTorch!",
+        "I am an AI Assistant programmed using PyTorch"
+      ]
+    },
+    {
+      "tag": "FGF",
+      "patterns": [
+        "Tell me about the company",
+        "What is FGF Brands?",
+        "Tell me more about FGF"
+      ],
+      "responses": [
+        "FGF has some of the world's leading teams of engineers, food scientists, chefs and bakers to redefine what’s possible",
+        "We are a technology company that bakes."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
