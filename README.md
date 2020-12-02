@@ -7,7 +7,13 @@ This project is a chatbot for FGF Brands. The goal is for it to help users to ru
 3. Feed Forward Neural Network with CrossEntropyLoss
 4. Using saved, trained model, implement the chat
 
-##Final Result:
+### Tools Used:
+- PyTorch
+- JSON
+- NLTK
+- Numpy
+
+## Final Result:
 [![Screen-Shot-2020-12-02-at-1-39-00-AM.png](https://i.postimg.cc/j2wdDnLw/Screen-Shot-2020-12-02-at-1-39-00-AM.png)](https://postimg.cc/hQnqwj8c)
 
 
