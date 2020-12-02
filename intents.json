@@ -37,7 +37,7 @@
         "Which items do you have?",
         "What kinds of items are there?",
         "What do you sell?",
-        "Do you sell food?",
+        "Do you have food?",
         "Is FGF a bakery?"
       ],
       "responses": [
@@ -51,7 +51,8 @@
         "How are the sales?",
         "Show me the sales for this month",
         "Show me the graphs of sales",
-        "How much money have you made?"
+        "How much money have you made?",
+        "what do you know about sales?"
       ],
       "responses": [
         "I do not currently have access to the sales yet. Coming soon!",
@@ -59,19 +60,20 @@
       ]
     },
     {
-      "tag": "Location",
+      "tag": "Persona",
       "patterns": [
         "Who do you work for?",
         "Where are you from?",
         "What company are you from?",
         "Who are you?",
-        "Where are you from?"
+        "Where are you from?",
+        "What do you do?"
       ],
       "responses": [
         "I am an AI assistant at FGF Brands",
         "I am FGF Brand's chat bot",
         "I am an AI Assistant for FGF Brands",
-        "I work at FGF Brands. I am a AI assistant"
+        "I work at FGF Brands. I am an AI assistant"
       ]
     },
     {
@@ -79,7 +81,8 @@
       "patterns": [
         "How were you made",
         "How were you programmed?",
-        "How were you created?"
+        "How were you created?",
+        "Were you programmed?"
       ],
       "responses": [
         "I am a chat bot made with PyTorch!",
@@ -103,7 +106,8 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "im bored"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",

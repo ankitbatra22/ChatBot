@@ -99,7 +99,7 @@ for epoch in range(epochs):
         # perform a single optimization step (parameter update)
         optimizer.step()
 
-      #  print(f'Epoch [{epoch + 1}/{epochs}], Loss: {loss.item():.4f}')
+        print(f'Epoch [{epoch + 1}/{epochs}], Loss: {loss.item():.4f}')
 
 data = {
 "model_state": model.state_dict(),

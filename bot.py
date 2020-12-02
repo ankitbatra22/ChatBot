@@ -26,7 +26,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 #CHAT
-name = "FGF-BOT: "
+name = "FGF-BOT"
 
 while True:
     user = input("YOU: ")
@@ -37,15 +37,15 @@ while True:
     pog = torch.from_numpy(pog).to(device)
 
     output = model(pog)
+    #print(output)
     _, predicted = torch.max(output, dim=1)
+   # print(predicted)
     tag = tags[predicted.item()]
     #print(tag)
 
-    tag = tags[predicted.item()]
-
-
     probs = torch.softmax(output, dim=1)
     probability = probs[0][predicted.item()]
+    #print(probability)
 
     #to do: Could use argmax to find highest prob like MNIST
 

@@ -18,3 +18,4 @@ class Net(nn.Module):
         output = self.layerThree(output)
 
         return output
+
