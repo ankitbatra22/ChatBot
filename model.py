@@ -6,7 +6,7 @@ class Net(nn.Module):
     def __init__(self, inputSize, hiddenSize, numClasses):
         super(Net, self).__init__()
         self.layerOne = nn.Linear(inputSize, hiddenSize)
-        self.layerTwo = nn.Linear(hiddenSize, hiddenSize) #HIDDEN FEED THROUGH
+        self.layerTwo = nn.Linear(hiddenSize, hiddenSize) # Feed Through
         self.layerThree = nn.Linear(hiddenSize, numClasses)
         self.relu = nn.ReLU()
 
