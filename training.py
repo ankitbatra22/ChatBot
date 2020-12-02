@@ -83,7 +83,6 @@ model = Net(inputSize, hiddenSize, outputSize).to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learningRate)
 
-
 for epoch in range(epochs):
     for words,labels in trainLoader:
         words = words.to(device)
