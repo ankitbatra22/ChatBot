@@ -1,5 +1,5 @@
 # ChatBot
-This project is a chatbot for FGF Brands. The goal is for it to help users to run various tasks like general questions, showing sales, typical conversation, or employee/ company information. It uses a feed-forward neural network made with PyTorch to have a contextual conversation.
+This project is a chatbot suited for an "office environment". The goal is for it to help users to run various tasks like general questions, showing sales, typical conversation, or employee/ company information. It uses a feed-forward neural network made with PyTorch to have a contextual conversation.
 
 ### Approach:
 1. NLP Processing (stemming, tokenization, create bag of words to reference to)
