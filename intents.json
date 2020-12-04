@@ -82,7 +82,8 @@
         "How were you made",
         "How were you programmed?",
         "How were you created?",
-        "Were you programmed?"
+        "Were you programmed?",
+        "Are you hard programmed?"
       ],
       "responses": [
         "I am a chat bot made with PyTorch!",
@@ -98,7 +99,7 @@
       ],
       "responses": [
         "FGF has some of the world's leading teams of engineers, food scientists, chefs and bakers to redefine what’s possible",
-        "We are a technology company that bakes."
+        "We create wholesome, natural, high-quality foods and bringing them to market with incredible speed and scale"
       ]
     },
     {
