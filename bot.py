@@ -32,20 +32,18 @@ while True:
     user = input("YOU: ")
 
     user = tokenize(user)
-    pog = bagOfWords(user, all_words) #Pog shape first index now
-    pog = pog.reshape(1, pog.shape[0])
-    pog = torch.from_numpy(pog).to(device)
+    words = bagOfWords(user, all_words) #Pog shape first index now
+    words = words.reshape(1, words.shape[0])
+    words = torch.from_numpy(words).to(device)
 
-    output = model(pog)
+    output = model(words)
     #print(output)
     _, predicted = torch.max(output, dim=1)
-   # print(predicted)
+    #print(predicted)
     tag = tags[predicted.item()]
-    #print(tag)
 
     probs = torch.softmax(output, dim=1)
     probability = probs[0][predicted.item()]
-    #print(probability)
 
     #to do: Could use argmax to find highest prob like MNIST
 

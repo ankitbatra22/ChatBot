@@ -11,6 +11,8 @@ stemmer = PorterStemmer()
 4. create bag of words. array with 1 for word that exists in a sentance and 0 for otherwise. 
 """
 
+
+
 def tokenize(sentance):
     return nltk.word_tokenize(sentance)
 
