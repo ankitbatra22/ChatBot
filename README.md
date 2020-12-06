@@ -14,7 +14,7 @@ This project is a chatbot suited for an "office environment". The goal is for it
 - Numpy
 
 ### Final Result:
-[![Screen-Shot-2020-12-02-at-1-39-00-AM.png](https://i.postimg.cc/j2wdDnLw/Screen-Shot-2020-12-02-at-1-39-00-AM.png)](https://postimg.cc/hQnqwj8c)
+[![Screen-Shot](https://i.postimg.cc/j2wdDnLw/Screen-Shot-2020-12-02-at-1-39-00-AM.png)](https://postimg.cc/hQnqwj8c)
 
 ### To Do List
 - [ ] Use Microsoft API to implement speech-to-text and vice versa. 
