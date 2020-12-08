@@ -1,5 +1,5 @@
 import nltk
-nltk.download('punkt')
+#nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 import numpy as np
 stemmer = PorterStemmer()
@@ -31,11 +31,7 @@ def bagOfWords(tokenized_sentance, all_words):
 
 
 
-
-
-
 """
-
 IGNORE : TESTING
 
 sentance = ["hello", "how", "are", "you"]
