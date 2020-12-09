@@ -3,6 +3,20 @@ import json
 import torch
 from toolkit import bagOfWords, tokenize
 from model import Net
+from os import system
+import speech_recognition as sr
+import pyttsx3   
+#import azure.cognitiveservices.speech as speechsdk
+
+engine = pyttsx3.init() 
+listener = sr.Recognizer()  
+
+
+#peech_config = speechsdk.SpeechConfig(subscription="<paste-your-subscription-key>", region="<paste-your-region>")
+#r = sr.Recognizer()
+
+def speak(text):
+    system("say {}".format(text))
 
 with open('intents.json', 'r') as f:
     intents = json.load(f)
@@ -28,8 +42,12 @@ model.eval()
 #CHAT
 name = "FGF-BOT"
 
+
 while True:
+
     user = input("YOU: ")
+
+    #user = r.recognize_google(audio_text)
 
     user = tokenize(user)
     words = bagOfWords(user, all_words) #Pog shape first index now
@@ -53,6 +71,7 @@ while True:
             if tag == intent["tag"]:
                 choice = random.choice(intent['responses'])
                 print(name,": " , choice)
+                speak(choice)
 
     else:
         print(name, "i dont understand...")
